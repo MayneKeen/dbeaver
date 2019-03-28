@@ -38,9 +38,9 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * MySQLCatalogManager
+ * MySQLDatabaseManager
  */
-public class MySQLCatalogManager extends SQLObjectEditor<MySQLCatalog, MySQLDataSource> implements DBEObjectRenamer<MySQLCatalog> {
+public class MySQLDatabaseManager extends SQLObjectEditor<MySQLCatalog, MySQLDataSource> implements DBEObjectRenamer<MySQLCatalog> {
 
     @Override
     public long getMakerOptions(DBPDataSource dataSource)

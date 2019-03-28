@@ -246,7 +246,7 @@
 
     <extension point="org.jkiss.dbeaver.objectManager">
         <manager class="org.jkiss.dbeaver.ext.mysql.edit.MySQLUserManager" objectType="org.jkiss.dbeaver.ext.mysql.model.MySQLUser"/>
-        <manager class="org.jkiss.dbeaver.ext.mysql.edit.MySQLCatalogManager" objectType="org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog" label="%manager.catalog.name"/>
+        <manager class="org.jkiss.dbeaver.ext.mysql.edit.MySQLDatabaseManager" objectType="org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog" label="%manager.catalog.name"/>
         <manager class="org.jkiss.dbeaver.ext.mysql.edit.MySQLTableManager" objectType="org.jkiss.dbeaver.ext.mysql.model.MySQLTable"/>
         <manager class="org.jkiss.dbeaver.ext.mysql.edit.MySQLTableColumnManager" objectType="org.jkiss.dbeaver.ext.mysql.model.MySQLTableColumn"/>
         <manager class="org.jkiss.dbeaver.ext.mysql.edit.MySQLConstraintManager" objectType="org.jkiss.dbeaver.ext.mysql.model.MySQLTableConstraint"/>

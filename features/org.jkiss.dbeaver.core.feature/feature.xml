@@ -2,7 +2,7 @@
 <feature
         id="org.jkiss.dbeaver.core.feature"
         label="%featureName"
-        version="6.0.1.qualifier"
+        version="6.0.2.qualifier"
         provider-name="%providerName"
         plugin="org.jkiss.dbeaver.core">
 
@@ -68,6 +68,7 @@
     <!-- Gis -->
     <plugin id="org.jkiss.dbeaver.data.gis" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
     <plugin id="com.vividsolutions.jts" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+    <plugin id="org.jkiss.dbeaver.data.gis.view" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
 
     <!-- Charts -->
     <plugin id="org.jkiss.bundle.jfreechart" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
